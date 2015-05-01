@@ -27,14 +27,157 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="calorific">
+    <body ng-app="counter" ng-controller="CountCtrl">
 
     <ion-pane>
       <ion-header-bar class="bar-stable">
-        <h1 class="title">My Calorific Counter</h1>
+        <h1 class="title">My Calorific Adder</h1>
       </ion-header-bar>
       <ion-content>
- 
+        <div class="list list-inset">
+
+
+  <div class="list card">
+ <div class = "item item-avatar">
+  <img src= "img/strawberry.jpg"  /> <!-- image source  -->
+ <h3><b>  STRAWBERRIES</b>  </h3> <!--bold and heading tags  -->
+<p>33 calories =  one portion  </p>
+
+          <label class="item item-input"> 
+            <input type="number" ng-model="count1" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count1 = count1 + 33"> <!-- buttons colour & functionality  -->
+            Count / Click + 1 portion <!-- button  -->
+          </button>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+        </div>  <div class="list card">
+ <div class = "item item-avatar">
+  <img src= "img/bacon.jpg"  />
+ <h3><b> BACON </b> </h3>
+<p>230 calories = one portion </p>
+
+          <label class="item item-input">
+            <input type="number" ng-model="count2" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count2 = count2 + 230">
+            Count / Click + 1 portion
+          </button>
+        </div>
+        </div>
+
+	 <div class = "item item-avatar">
+  <img src= "img/onion.jpg"  />
+ <h3><b> ONION</b>  </h3>
+<p>81 calories = one portion</p>
+          <label class="item item-input">
+            <input type="number" ng-model="count3" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count3 = count3 +81 ">
+            Count / Click + 1 portion
+          </button>
+        </div>
+        </div>
+
+
+
+
+ <div class="list card">
+ <div class = "item item-avatar">
+  <img src= "img/fish.jpg"  />
+ <h3><b> FISH</b>  </h3>
+<p>130 calories = one portion  </p>
+
+          <label class="item item-input">
+            <input type="number" ng-model="count4" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count4 = count4 + 130">
+            Count / Click + 1 portion
+          </button>
+        </div>
+</div>
+ <div class="list card">
+ <div class = "item item-avatar">
+  <img src= "img/chicken.jpg"  />
+ <h3><b>CHICKEN </b> </h3>
+<p>220 calories = one portion </p>
+
+          <label class="item item-input">
+            <input type="number" ng-model="count5" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count5 = count5 + 220">
+            Count / Click + 1 portion
+          </button>
+        </div>
+        </div>
+
+ <div class="list card">
+ <div class = "item item-avatar">
+  <img src= "img/lamb.jpg"  />
+ <h3><b>LAMB</b></h3>
+<p>389 calories = one portion</p>
+          <label class="item item-input">
+            <input type="number" ng-model="count6" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count6 = count6 + 389">
+            Count / Click + 1 portion
+          </button>
+        </div>
+        </div>
+
+ <div class="list card">
+ <div class = "item item-avatar">
+  <img src= "img/parsnip.jpg"  />
+ <h3><b>Parsnip</b>  </h3>
+<p>121 calories = one portion </p>
+
+          <label class="item item-input">
+            <input type="number" ng-model="count7" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count7 = count7 + 121">
+            Count / Click + 1 portion
+          </button>
+        </div>
+        </div>
+
+ <div class="list card">
+ <div class = "item item-avatar">
+  <img src= "img/pasta.jpg"  />
+ <h3><b>PASTA</b></h3>
+<p>93 calories = one portion </p>
+
+		 <label class="item item-input">
+            <input type="number" ng-model="count8" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count8 = count8 + 93">
+            Count / Click + 1 portion
+          </button>
+        </div>
+        </div>
+
+ <div class="list card">
+ <div class = "item item-avatar">
+  <img src= "img/mince.jpg"  />
+ <h3><b>MINCE</b> </h3>
+<p>213 calories = one portion </p>
+          <label class="item item-input">
+            <input type="number" ng-model="count9" />
+          </label>
+          <button class="button button-block button-positive" ng-click="count9 = count9 + 213">
+            Count / Click + 1 portion
+			 </button>
+        </div>
+        </div>
+
+
       </ion-content>
     </ion-pane>
   </body>
